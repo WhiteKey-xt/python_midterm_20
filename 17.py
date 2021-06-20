@@ -1,0 +1,8 @@
+n11=input("")
+o1=n11.replace("A","1")
+o2=o1.replace("J","11")
+o3=o2.replace("Q","12")
+o4=o3.replace("K","13")
+o5=o4.split(" ")
+o6=int(o5[0])+int(o5[1])+int(o5[2])+int(o5[3])+int(o5[4])
+print(str(o6))
